@@ -80,7 +80,7 @@ public class AuthController {
         String jwt=jwtProvider.generateToken(authentication);
         AuthResponse authResponse=new AuthResponse();
         authResponse.setJwt(jwt);
-        authResponse.setMessage("reg success");
+        authResponse.setMessage("login success");
         authResponse.setRole(USER_ROLE.valueOf(role));
 
         return  new ResponseEntity<>(authResponse, HttpStatus.OK);
