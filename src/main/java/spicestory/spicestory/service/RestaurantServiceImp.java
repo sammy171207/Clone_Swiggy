@@ -1,6 +1,7 @@
 package spicestory.spicestory.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import spicestory.spicestory.dto.RestaurantDto;
 import spicestory.spicestory.model.Address;
 import spicestory.spicestory.model.Restaurant;
@@ -14,6 +15,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public  class RestaurantServiceImp implements  RestaurantService{
 
     @Autowired
