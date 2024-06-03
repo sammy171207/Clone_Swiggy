@@ -22,7 +22,7 @@ public class RestaurantController {
 
         @Autowired
         private UserService userService;
-        @PostMapping
+        @GetMapping("/search")
         public ResponseEntity<List<Restaurant>>searchRestaurant(
                 @RequestParam String keyword,
                 @RequestHeader("Authorization") String jwt
@@ -64,7 +64,7 @@ public class RestaurantController {
         User user=userService.findUserbyJwtToken(jwt);
         RestaurantDto restaurant=restaurantService.addToFavorites(id,user);
 
-        return new ResponseEntity<>(restaurant, HttpStatus.CREATED);
+        return new ResponseEntity<>(restaurant, HttpStatus.OK);
     }
 
 }

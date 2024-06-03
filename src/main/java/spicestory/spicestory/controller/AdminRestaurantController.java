@@ -66,7 +66,7 @@ public class AdminRestaurantController {
         return new ResponseEntity<>(restaurant,HttpStatus.OK);
     }
 
-    @GetMapping  ("/user")
+    @GetMapping("/user")
     public  ResponseEntity<Restaurant>findRestaurantByUserId(
 
             @RequestHeader("Authorization") String jwt
