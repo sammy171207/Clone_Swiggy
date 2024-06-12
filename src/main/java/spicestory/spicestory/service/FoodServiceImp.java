@@ -50,7 +50,7 @@ public class FoodServiceImp implements FoodService {
     @Override
     public List<Food> getRestaurantFood(Long restaurantId, boolean isVegitarian, boolean isNonveg, boolean isSeasonal, String foodCategory) {
 
-        List<Food>foods=foodRepository.findBbyRestaurantId(restaurantId);
+        List<Food>foods=foodRepository.findByRestaurantId(restaurantId);
         if(isVegitarian){
             foods=filterbyVegetarian(foods,isVegitarian);
         }
