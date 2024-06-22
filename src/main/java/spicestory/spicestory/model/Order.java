@@ -43,6 +43,6 @@ public class Order {
  private List <OrderItems>items;
  //private Payment payment
  private int totalItem;
- private int totalPrice;
+ private Long totalPrice;
 
 }

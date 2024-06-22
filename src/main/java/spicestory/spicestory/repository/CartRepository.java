@@ -5,4 +5,8 @@ import spicestory.spicestory.model.Cart;
 
 public interface CartRepository extends JpaRepository<Cart,Long> {
 
+    public Cart findByCustomerId(Long userId);
+
+
+
 }

@@ -13,7 +13,7 @@ import spicestory.spicestory.service.IngredientsService;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/admin/ingredients")
+@RequestMapping("/api/admin/ingredients")
 public class IngredientController {
     @Autowired
     private IngredientsService ingredientsService;
