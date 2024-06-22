@@ -89,12 +89,8 @@ Welcome to the Food Delivery Sprint API! This API is designed to facilitate the 
 
 ### Contributors:
 
-- [List team members or contributors involved in the project.]
+- Sameer Randive
 
 ### Feedback and Support:
-
-For any questions, feedback, or issues, please contact [provide contact details or link to support system].
-
----
 
 Thank you for using the Food Delivery Sprint API. Happy coding and happy eating! 🍔🌮🍕
