@@ -8,7 +8,7 @@ public class SpicestoryApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpicestoryApplication.class, args);
-		System.out.println("heelo");
+		System.out.println("let Order");
 	}
 
 }
